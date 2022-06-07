@@ -50,6 +50,9 @@ Launch
 $ npm start
 ```
 
+## What?
+- https://www.freecodecamp.org/news/learn-react-by-building-a-weather-app/
+
 ## Organization and Standards
 
 #### Notables

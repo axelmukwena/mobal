@@ -18,8 +18,8 @@ const App = function App() {
           </p>
           
           <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route path="/" element={<LocIndex name="home" />} />
+            <Route path="/">
+              <Route path="home" element={<LocIndex name="home" />} />
               <Route path="axel" element={<LocIndex name="Axel" />} />
             </Route>
           </Routes>

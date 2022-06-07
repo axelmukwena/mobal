@@ -4,10 +4,11 @@ const Layout = function Layout({ children }) {
   const [myHook, setMyHook] = useState([])
 
   useEffect(() => {
+    console.log(children)
 	}, []);
 
   return (
-    <div style={{ backgroundColor: "red" }}>{ children }</div>
+    <div className="layout" style={{ backgroundColor: "red" }}>{ children }</div>
   )
 }
 
