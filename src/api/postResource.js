@@ -1,5 +1,5 @@
 import axios from "axios";
-import { API_URL } from "../utilities/constants"
+import { API_URL } from "../utilities/constants";
 
 // Post data to api
 async function postResource(path, params, handleResponse) {
@@ -16,10 +16,10 @@ async function postResource(path, params, handleResponse) {
     },
   };
 
-  axios
+  await axios
     .post(url, params, headers)
     .then((response) => {
-      handleResponse({ resource: response.data});
+      handleResponse({ resource: response.data });
     })
     .catch((error) => {
       handleResponse({ resource: null, message: error.message });
