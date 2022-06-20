@@ -115,8 +115,7 @@ Create a `.prettierrc` at root and
 Install Material-UI: https://mui.com/material-ui/getting-started/installation/
 
 ```shell
-$ npm install @mui/material @emotion/react @emotion/styled
-$ npm install @mui/icons-material
+$ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
 Moment.js to format our time
@@ -165,8 +164,7 @@ async function postResource(path, params, handleResponse) {
 ## Global store
 
 ```shell
-$ npm install @reduxjs/toolkit
-$ npm install react-redux
+$ npm install @reduxjs/toolkit react-redux
 ```
 
 ### How to create a store
